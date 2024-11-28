@@ -73,10 +73,10 @@ a {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #404bbf;
 }
 
@@ -109,7 +109,11 @@ a {
 
 /* <!-- ============ Our Team ============== --> 3*/
 
+.our-team-section {
+    background-color: #F4F4FD;
+}
 
+.our-portfolio-page,
 .our-team {
         font-weight: 700;
         font-size: 36px;
@@ -117,12 +121,18 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        }
+        text-transform: capitalize
+}
+
+.our-team-section {
+    background-color: #f4f4fd;
+}
 .our-team,
 .our-team-list,
 .li-team {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
 }
+
 
 .team-list-big,
 .team-list-little {
@@ -137,9 +147,7 @@ a {
 
 /* < !--============Our Portfolio==============--> 4*/
 
-.our-portfolio-page {
-    
-}
+
 
 /* < !--============Footer==============--> */
 
